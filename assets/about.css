@@ -1,0 +1,60 @@
+.lin{
+	float:left;
+	margin:0px 30px;
+}
+.hong{
+	float:right;
+	clear:left;
+	margin:15px 30px;
+}
+.kao{
+	float:left;
+	clear:right;
+	margin:0px 30px;
+}
+.qiu{
+	float:right;
+	clear:left;
+	margin:15px 30px;
+}
+.lin, .hong, .kao, .qiu{
+	width:200px;
+	height:200px;
+	border-radius:100px;
+}
+.think2,.name2{
+	clear:left;
+}
+.think3,.name3{
+	clear:right;
+}
+.think4,.name4{
+	clear:left;
+}
+.name1,.name2,.name3,.name4{
+	font-size:30px;
+	font-weight:bold;
+}
+p{
+	margin:0px 50px;
+	padding:30px 0px;
+	font-size:20px;
+}
+.think1,.think3{
+	margin-left:10px;
+	margin-top:-10px;
+}
+.think2,.think4{
+	margin-right:10px
+	margin-top:-10px;
+}
+.a1,.a3,.a2,.a4{
+	border:10px solid;
+	margin:30px 15%;
+	padding:40px 20px;
+	padding-top:30px;
+	background-clip:contain-box;
+	border-image
+}
+
+
