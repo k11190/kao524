@@ -1,0 +1,56 @@
+.yoga{
+	float:left;
+	clear:right;
+	transform: rotate(-10deg);
+	transform-origin: left top;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+.painting{
+	float:right;
+	clear:left;
+	transform-origin: right top;
+	transform:rotate(10deg);
+	margin-right:50px;
+	margin-top:50px;
+}
+.dessert{
+	float:left;
+	transform-origin: left top;
+	transform: rotate(-10deg);
+	margin-top:150px;
+	margin-left:50px;
+}
+.tby{
+	width:0px;
+	transition:0.3s;
+	position:relative;
+	left:0px;
+	top:1000px;
+}
+.tbp{
+	width:0px;
+	transition:0.3s;
+	position:relative;
+	left:-50%;
+	top:550px;
+}
+.tbd{
+	width:0px;
+	transition:0.3s;
+	position:relative;
+	left:0px;
+	top:50px;
+}
+.yoga:hover +.tby{
+	width:690px;
+	height:400px;
+}
+.painting:hover +.tbp{
+	width:690px;
+	height:400px;
+}
+.dessert:hover +.tbd{
+	width:690px;
+	height:400px;
+}
