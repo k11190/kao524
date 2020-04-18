@@ -1,0 +1,15 @@
+nav ul li{
+	display: inline;
+}
+nav{
+	text-align:center;
+}
+li{
+	border:solid 0px;
+	padding:15px 30px;
+	margin:10px 8%;
+	border-radius:20px;
+	background-color:#fffff0;
+}
+li:hover{
+}
