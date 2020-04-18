@@ -1,0 +1,24 @@
+img{
+	width: 250px;
+	height: 200px;
+	border-radius: 10px;
+}
+footer{
+	word-spacing:8px;
+}
+td{
+	padding:15px 60px;
+}
+.imgborder{
+	border:1px solid;
+}
+.footer{
+	margin:0px 100px;
+	line-height:30px;
+}
+a:link{
+	color:black;
+}
+a:visited{
+	color:black;
+}
