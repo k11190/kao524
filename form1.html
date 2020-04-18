@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style>
+		span
+		{
+		background: #EAFDF8;
+		padding: 2px 2px;
+		font-size: 25px;
+		font-weight: bold;
+		font-family: 標楷體;
+		}
+		table
+		{
+			font-size: 20px;
+			font-weight: bold;
+			font-family: 標楷體;
+			padding: 20px 20px ;
+		}
+		.btn
+		{
+		font-size: 20px;
+		font-weight: bold;
+		font-family: 標楷體;
+		padding: 10px 20px;
+		border-style: 10px outset;
+		border:0;
+		background-color:#003C9D;
+		color:#fff;
+		border-radius:10px;
+		cursor:pointer;}
+		.btn:hover
+		{color:#003C9D;
+		background-color:#fff;
+		border:2px #003C9D solid;}
+		</style>
+	</head>
+	<body bgcolor="#E6E6FA">
+	<img src="image/lucky.png" alt="" style="position:absolute;left:10%;top:11%;width:280px;height:280px;transform:rotate(-50deg)">
+	<a href="index.html" title="" class="btn" style="text-decoration:none;position:absolute;top:55%;left:18%">回首頁</a>
+	<img src="image/lucky.png" alt="" style="position:absolute;left:70%;top:50%;width:280px;height:280px;transform:rotate(20deg)">
+		<form align="center" action="" method="get" accept-charset="utf-8">
+			<fieldset  style="width: 300px; height:150px;margin: auto;background: white;border:2px solid;">
+				<legend align="center"><span>&nbsp;個資&nbsp;</span></legend>
+				<div style="height:100%;" >
+					<table align="center" >
+						<tr>
+							<td>姓名:</td>
+							<td><input type="text" /> </td>
+						</tr>
+						<tr>
+							<td>性別：</td>
+							<td><input type="radio" name="sex" value="male"/>男 <input type="radio" name="sex" value="female"/>女
+						</td>
+					</tr>
+					<tr>
+						<td>Email: </td>
+						<td><input type="email" /> </td>
+					</tr>
+				</table>
+			</div>
+		</fieldset><br><br>
+
+
+		<fieldset style="width: 300px; height:300px;margin: auto;background: white; border:2px solid;" >
+			<legend align="center"><span>&nbsp;小互動&nbsp;</span></legend>
+			<div align="center">
+				<table>
+					<tr>
+						<td>想對我們說</td>
+					</tr>
+					<tr>
+						<td><textarea name="memo" cols="25" rows="5" wrap="hard"></textarea></td>
+					</tr>
+					<tr>
+						<td>意見以及建議</td>
+					</tr>
+					<tr>
+						<td><textarea name="memo" cols="25" rows="5" wrap="hard"></textarea></td>
+					</tr>
+				</table>
+			</div>
+		</fieldset><br>
+             <input class="btn" type="submit" value="送出" style="position:absolute;top:42%;left:76%;"/>
+	</form>
+</body>
+</html>
