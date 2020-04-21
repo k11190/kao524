@@ -11,6 +11,7 @@ td{
 }
 .imgborder{
 	border:1px solid;
+	margin-bottom: 12px;
 }
 .footer{
 	margin:0px 100px;
@@ -21,4 +22,14 @@ a:link{
 }
 a:visited{
 	color:black;
+}
+
+span{
+	border-radius: 10px;
+	border:2px outset #9D9D9D;
+	padding:5px 8px;
+	
+}
+span:hover{
+	font-size: 17px;
 }
