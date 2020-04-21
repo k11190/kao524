@@ -56,5 +56,20 @@ p{
 	background-clip:contain-box;
 	border-image
 }
-
+.form1{
+	position:relative;
+	left:50%;
+	margin-left: -105px;
+	border-radius: 10px;
+	border:2px outset #9D9D9D;
+	padding:5px 8px;
+	padding:10px 20px;
+}
+.form1:hover{
+	margin-left:-140px;
+	font-size:25px;
+}
+footer{
+	margin-top:20px;
+}
 
